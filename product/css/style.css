@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 10px;
+    width: 950px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: EEEEEE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.container div{
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 3px;
+    margin: 5px;
+    width: 450px;
+    align-items: center; 
+}
+.box1 .image{
+    background-color: lightskyblue;
+}
+.box1 .image button{
+    color: white;
+    background-color: #AA0329;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-size: 8px;
+}
+.box1 .content,
+.box2 .content,
+.box3 .content,
+.box4 .content{
+    border: none;
+    user-select: none;
+}
+.box1, .box2{
+    height: 250px;
+    width: 350px;
+    display: flex;
+}
+.box3, .box4{
+    height: 250px;
+    width: 350px;
+    display: flex;
+}
+.box1 .content{
+    background-color: white;
+}
+.box1 .image,
+.box1 .content,
+.box2 .image,
+.box2 .content,
+.box3 .image,
+.box3 .content,
+.box4 .image,
+.box4 .content
+{
+    height: 200px;
+    width: 250px;
+    user-select: none;
+}
+.box1 .image{
+    background-image: url('../images/tablet.png');
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+.content h1{
+    font-size: 10px;
+    color: #2874F0;
+    text-transform: capitalize;
+
+}
+.content h2{
+    font-size: 9px;
+    color: #ADBED1;
+}
+.content h3{
+    font-size: 28px;
+    color: #94CCF4;
+    padding: 2px;
+    border-bottom: 1px solid grey;
+    font-weight: normal;
+}
+.content h4{
+    font-size: 10px;
+    color: black;
+    padding: 6px;
+}
+.content button{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.content .add, 
+.content .more{
+    background-color: #D9534F;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 3px;
+    color: white;  
+    cursor: pointer;  
+}
+.content .more{
+    background-color: #59BFDE;
+}
+.content h5{
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 10px; 
+}
+.content .star{
+    font-size: 10px;
+    margin-left: 60px;
+    margin-top: -25px;
+    width: 80px;
+    border: none;
+    background-color: white;
+}
+.star .fa{
+    color: brown;
+}
+.star .checked {
+    color: red;
+}
+.container .box1{
+    background-color: white;
+}
+.box2 .image{
+    background-image: url('../images/p3.png');
+    background-size: contain;
+    background-repeat: no-repeat;  
+    background-position: 100%;
+}
+.box2 .image button{
+    color: white;
+    background-color: #AA0329;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-size: 8px;
+}
+.box3 .image{
+    background-image: url('../images/computer1.avif');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    width: 205px;
+}
+.box3 .image button{
+    color: white;
+    background-color: #3B6764;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 50px;
+    margin-left: 130px;
+    text-transform: uppercase;
+    font-size: 8px;
+}
+.box1 image,if
+.box2 image,
+.box3 image,
+.box4 image{
+    background-color: #DFEBF1;
+}
+.box4 .image{
+    background-image: url('../images/laptop.webp');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    width: 205px;
+}
+.box4 .image button{
+    color: white;
+    background-color: #57889B;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 50px;
+    margin-left: 130px;
+    text-transform: uppercase;
+    font-size: 8px;
+}
+.container .box2,
+.container .box3,
+.container .box4{
+    background-color: white;
+}
